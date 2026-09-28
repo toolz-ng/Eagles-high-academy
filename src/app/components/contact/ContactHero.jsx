@@ -25,7 +25,7 @@ export default function ContactHero() {
                 {/* Back */}
                 <Link
                     href="/"
-                    className="absolute left-4 top-8 inline-flex items-center gap-2 text-sm font-medium text-white/75 transition hover:text-white sm:left-6 lg:left-8"
+                    className="absolute pt-5 md:pt-3 left-4 top-8 inline-flex items-center gap-2 text-sm font-medium text-white/75 transition hover:text-white sm:left-6 lg:left-8"
                 >
                     <ArrowLeft className="h-4 w-4" />
                     Back to Home
