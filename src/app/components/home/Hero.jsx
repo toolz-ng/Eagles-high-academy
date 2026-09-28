@@ -61,10 +61,10 @@ export default function Hero() {
                     <ArrowUpRight className="h-4 w-4" />
                 </ApplyButton>
                 <Link
-                href="/about"
+                href="#about"
                 className="inline-flex items-center gap-1.5 rounded-md border border-paper/40 px-6 py-3 text-sm font-semibold text-paper hover:bg-paper/10 transition-colors"
                 >
-                Learn more about us
+                Learn more
                 <ChevronRight className="h-4 w-4" />
                 </Link>
             </div>
