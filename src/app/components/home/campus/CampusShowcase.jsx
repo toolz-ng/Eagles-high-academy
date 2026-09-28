@@ -29,7 +29,7 @@ const spaces = [
 
 export default function CampusShowcase() {
     return (
-        <section className="bg-tint/40 py-20 sm:py-24">
+        <section className="bg-tint/40 py-20 sm:py-24" id="campus">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
                 <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">

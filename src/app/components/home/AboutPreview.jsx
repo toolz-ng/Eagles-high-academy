@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function AboutPreview() {
     return (
-        <section className="py-20">
+        <section className="py-20" id="about">
             <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
                 <div className="grid lg:grid-cols-2 gap-12 items-center gap-x-16">
                     <div className="relative aspect-[4/3] rounded-2xl overflow-hidden border border-navy/10 bg-tint order-2 lg:order-1">
@@ -36,13 +36,13 @@ export default function AboutPreview() {
                         careers across Nigeria and abroad — still carrying the same
                         values they learned here.
                         </p>
-                        <Link
+                        {/*<Link
                         href="/about"
                         className="mt-7 inline-flex items-center gap-2 rounded-md bg-navy px-6 py-3 text-sm font-semibold text-paper hover:bg-navy-dark transition-colors"
                         >
                             Discover our story
                         <ArrowRight className="h-4 w-4" />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import { activities } from "./activities";
 
 export default function StudentLife() {
     return (
-        <section className="bg-tint py-20">
+        <section className="bg-tint py-20" id="student-life">
             <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className="mx-auto max-w-2xl text-center">

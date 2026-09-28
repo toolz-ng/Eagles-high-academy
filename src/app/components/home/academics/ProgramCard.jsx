@@ -18,11 +18,11 @@ export default function ProgramCard({ title, description }) {
 
             <p className="mt-4 text-sm leading-6 text-ink/70">{description}</p>
 
-            <div className="mt-6 h-px w-full bg-navy/10" />
+            {/*<div className="mt-6 h-px w-full bg-navy/10" />
 
             <p className="mt-4 text-sm font-semibold text-navy transition-colors group-hover:text-accent">
                 Explore programme
-            </p>
+            </p> */}
         </div>
     );
 }
