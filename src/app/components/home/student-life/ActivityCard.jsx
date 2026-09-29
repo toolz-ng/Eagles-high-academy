@@ -54,12 +54,12 @@ export default function ActivityCard({
                         {title}
                     </h3>
 
-                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-paper/15 text-paper backdrop-blur-md transition-colors duration-300 group-hover:bg-accent group-active:bg-accent">
+                    <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-paper/15 text-paper backdrop-blur-md transition-colors duration-300 group-hover:bg-accent">
                         <ArrowUpRight className="h-4 w-4" />
                     </div>
                 </div>
 
-                <div className="grid grid-rows-[0fr] opacity-0 transition-all duration-300 ease-out group-hover:grid-rows-[1fr] group-active:grid-rows-[1fr] group-hover:opacity-100 group-active:opacity-100">
+                <div className="grid grid-rows-[0fr] opacity-0 transition-all duration-300 ease-out group-hover:grid-rows-[1fr] group-hover:opacity-100">
                     <div className="overflow-hidden">
                         <p className="mt-3 rounded-xl bg-navy/70 px-3.5 py-3 text-sm leading-6 text-paper/90 backdrop-blur-md">
                             {description}
