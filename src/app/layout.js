@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { AdmissionProvider } from "./context/AdmissionContext";
 import AdmissionModal from "./components/admission/AdmissionModal";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const fraunces = Fraunces({
     subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
                     </main>
 
                     <Footer />
+                    <WhatsAppButton />
 
                     <AdmissionModal />
                 </AdmissionProvider>
