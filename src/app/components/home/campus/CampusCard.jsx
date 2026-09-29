@@ -16,7 +16,8 @@ export default function CampusCard({ space, index, onClick }) {
                 border border-navy/10 bg-white
                 text-left shadow-sm
                 transition-all duration-500
-                hover:-translate-y-1 hover:shadow-xl
+                hover:-translate-y-1 active:-translate-y-1 hover:shadow-xl
+                active:shadow-xl
                 focus:outline-none focus:ring-2
                 focus:ring-accent focus:ring-offset-2
 
@@ -43,6 +44,7 @@ export default function CampusCard({ space, index, onClick }) {
                         transition-transform
                         duration-700
                         group-hover:scale-105
+                        group-active:scale-105
                     "
                 />
 
@@ -67,6 +69,7 @@ export default function CampusCard({ space, index, onClick }) {
                         opacity-0
                         transition-all duration-300
                         group-hover:opacity-100
+                        group-active:opacity-100
                     "
                 >
                     <ArrowRight className="h-4 w-4" />

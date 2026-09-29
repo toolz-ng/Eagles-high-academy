@@ -53,7 +53,7 @@ export default function FAQ() {
 
                 {/* CTA */}
                 <div className="mt-10 rounded-3xl bg-navy px-6 py-5 sm:px-10">
-                    <div className="flex justify-between items-center gap-6 sm:gap-10 sm:flex-row flex-col">
+                    <div className="flex justify-between items-center text-center gap-6 sm:gap-10 sm:flex-row flex-col">
                         <div>
                             <h3 className="mt-3 text-2xl sm:text-3xl font-semibold text-white">
                                 Still have questions?
@@ -67,7 +67,7 @@ export default function FAQ() {
 
                         <Link
                             href="/contact"
-                            className="mt-6 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-navy transition hover:opacity-90"
+                            className="mt-3 inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                         >
                             Get in touch
                             <ArrowUpRight className="h-4 w-4" />

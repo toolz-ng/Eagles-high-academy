@@ -8,7 +8,7 @@ export default function Footer() {
                 <div>
                     <div className="flex items-center gap-2">
                     <span className="flex h-9 w-9 items-center justify-center rounded-full bg-paper text-navy font-display text-sm">
-                        EH
+                        EHA
                     </span>
                     <span className="font-display text-lg text-paper">
                         Eagles High Academy

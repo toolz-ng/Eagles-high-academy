@@ -10,8 +10,8 @@ import ApplyButton from "./admission/ApplyButton";
 const links = [
     { href: "/", label: "Home", id: "home" },
     { href: "/#about", label: "About", id: "about" },
-    { href: "/#student-life", label: "Student Life", id: "student-life" },
     { href: "/#campus", label: "Campus Gallery", id: "campus" },
+    { href: "/#student-life", label: "Student Life", id: "student-life" },
     { href: "/contact", label: "Contact", id: "contact" },
 ];
 
