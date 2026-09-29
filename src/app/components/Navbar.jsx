@@ -66,34 +66,31 @@ export default function Navbar() {
         const updateActiveSection = () => {
             const scrollPosition = window.scrollY;
 
-            // At the very top
             if (scrollPosition < 150) {
                 setActive("home");
                 return;
             }
 
             let currentSection = "home";
+            let currentTop = -Infinity;
 
             sections.forEach((section) => {
                 if (!section.elementId) return;
+                const element = document.getElementById(section.elementId);
+                if (!element) return;
 
-                const element = document.getElementById(
-                    section.elementId
-                );
+                const top = element.getBoundingClientRect().top + window.scrollY;
 
-                if (element) {
-                    const top =
-                        element.getBoundingClientRect().top +
-                        window.scrollY;
-
-                    if (scrollPosition >= top - 180) {
-                        currentSection = section.id;
-                    }
+                // Only take this section if we've scrolled past it AND it's
+                // further down the page than whatever we've already matched.
+                if (scrollPosition >= top - 180 && top > currentTop) {
+                currentSection = section.id;
+                currentTop = top;
                 }
             });
 
             setActive(currentSection);
-        };
+            };
 
         updateActiveSection();
 
