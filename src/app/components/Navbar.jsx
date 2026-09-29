@@ -178,8 +178,8 @@ export default function Navbar() {
                                         <span
                                             className={`absolute -bottom-1 left-0 h-px transition-all duration-200 ${
                                                 isActive
-                                                    ? "w-full bg-navy"
-                                                    : "w-0 bg-white group-hover:w-full"
+                                                    ? "w-1/2 bg-navy"
+                                                    : "w-0 bg-white group-hover:w-1/2"
                                             } ${
                                                 scrolled && !isActive
                                                     ? "group-hover:bg-navy"
